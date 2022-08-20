@@ -1,0 +1,64 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
+  "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+<meta name="generator" content="jemdoc, see http://jemdoc.jaboc.net/" />
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<link rel="stylesheet" href="jemdoc.css" type="text/css" />
+<title>Projects</title>
+<!-- MathJax -->
+<script src='https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/latest.js?config=TeX-MML-AM_CHTML' async>
+</script>
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+	  TeX: { equationNumbers: { autoNumber: "AMS" } }
+});
+</script>
+<!-- End MathJax -->
+</head>
+<body>
+<table summary="Table for page layout." id="tlayout">
+<tr valign="top">
+<td id="layout-menu">
+<div class="menu-category">Info</div>
+<div class="menu-item"><a href="index.html">About&nbsp;me</a></div>
+<div class="menu-item"><a href="projects.html" class="current">Projects</a></div>
+<div class="menu-item"><a href="res/cv.pdf" target="blank">CV&nbsp;(PDF)</a></div>
+<div class="menu-item"><a href="https://scholar.google.com/citations?user=RhrLB4AAAAAJ&hl=en" target="blank">Google&nbsp;Scholar</a></div>
+</td>
+<td id="layout-content">
+<div id="toptitle">
+<h1>Projects</h1>
+</div>
+<p>Here are some of the projects I did for classes at Stanford University.
+</p>
+<h2>Sparse + Low-rank Approximation of Matrix Inverse</h2>
+<p><i>EE 364B: Convex Optimization II</i> Class Project with Nipun Agarwala and Shaked Regev
+</p>
+<p><a href="res/ee364bpaper.pdf" target=&ldquo;blank&rdquo;>[paper]</a> <a href="https://github.com/nipunagarwala/ee364b_final_project" target=&ldquo;blank&rdquo;>[code]</a>
+</p>
+<p>We proposed and implemented a scalable convex optimization approach to estimate a low-rank correction of a sparse approximate matrix inverse. Our approach can improve the preconditioning matrix in the Preconditioned Conjugate Gradient algorithm.
+</p>
+<h2>Training CNN for Mixed Poisson-Gaussian Noisy Images Without Ground Truth</h2>
+<p><i>CS 229: Machine Learning</i> Class Project with Patin Inkaew
+</p>
+<p><a href="res/cs229paper.pdf" target=&ldquo;blank&rdquo;>[paper]</a> <a href="https://github.com/rkitichotkul/pgblindtrain" target=&ldquo;blank&rdquo;>[code]</a>
+</p>
+<p>We used an unbiased risk estimate for mixed Poisson-Gaussian noise as training loss instead of the squared error loss. This approach allows for training of CNN based denoisers without requiring ground truth images when the noise is mixed Poisson-Gaussian. This approach enables finetuning on datasets in which ground truth data are not available.
+</p>
+<h2>Variants of SURE-LET Approach to Image Denoising</h2>
+<p><i>EE 367: Computational Imaging and Display</i> Class Project 
+</p>
+<p><a href="res/ee367paper.pdf" target=&ldquo;blank&rdquo;>[paper]</a>
+</p>
+<p>I experimented with some instances of the SURE-LET approach for blind Gaussian denoising and PURE-LET, the variant for Poisson noise case. In these approaches, we apply a denoiser to an image using different noise strength parameters and linearly combine the denoised images such that the unbiased estimate of the mean squared error (MSE) is minimized. I also experimented with using Anscombe transform to approximate a Poisson noisy image with a Gaussian noisy image and denoise it using the SURE-LET approach.</p>
+<div id="footer">
+<div id="footer-text">
+Page generated 2021-09-12 17:50:20 +07, by <a href="https://github.com/wsshin/jemdoc_mathjax" target="blank">jemdoc+MathJax</a>.
+</div>
+</div>
+</td>
+</tr>
+</table>
+</body>
+</html>
