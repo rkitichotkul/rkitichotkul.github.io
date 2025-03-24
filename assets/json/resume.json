@@ -1,18 +1,18 @@
 {
   "basics": {
-    "name": "Albert Einstein",
-    "label": "Scientist",
+    "name": "Ruangrawee (Kao) Kitichotkul",
+    "label": "PhD Student",
     "image": "",
-    "email": "albert@einstein.de",
-    "phone": "(912) 123-4567",
-    "url": "https://alshedivat.github.io/al-folio/",
-    "summary": "A German-born theoretical physicist, widely ranked among the greatest and most influential scientists of all time",
+    "email": "rkitich@bu.edu",
+    "phone": "(650) 334-9533",
+    "url": "https://rkitichotkul.github.io",
+    "summary": "PhD student working on single-photon lidar, signal processing, and computational imaging.",
     "location": {
-      "address": "2712 Broadway St",
-      "postalCode": "CA 94115",
-      "city": "San Francisco",
+      "address": "8 St. Mary's St",
+      "postalCode": "02215",
+      "city": "Boston",
       "countryCode": "US",
-      "region": "California"
+      "region": "MA"
     },
     "profiles": [
       {
