@@ -1,6 +1,6 @@
 ---
 layout: about
-title: about
+title: About
 permalink: /
 subtitle: Computational Imaging PhD student at <a href='https://www.bu.edu/eng/academics/departments-and-divisions/electrical-and-computer-engineering'>ECE, Boston University</a> | Research Intern at <a href='https://www.merl.com/'>MERL</a>
 
@@ -8,8 +8,7 @@ profile:
   align: right
   image: profilepic.jpg
   image_circular: true # crops the image to make it circular
-  more_info: >
-            <p>rkitich[at]bu[dot]edu</p>
+  # more_info: >
 
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
