@@ -2,7 +2,10 @@
 layout: about
 title: About
 permalink: /
-subtitle: Computational Imaging PhD student at <a href='https://www.bu.edu/eng/academics/departments-and-divisions/electrical-and-computer-engineering'>ECE, Boston University</a> | Research Intern at <a href='https://www.merl.com/'>MERL</a>
+subtitle: 
+> Computational Imaging PhD student at Department of Electrical and Electronic Engineering, <a href='https://www.bu.edu/'>Boston University</a>
+> Research Intern at <a href='https://www.merl.com/'>Mitsubishi Electric Research Laboratories (MERL)</a>
+> I go by Kao, though my full name is Ruangrawee Kitichotkul (เรืองรวี กิติโชตน์กุล).
 
 profile:
   align: right
@@ -29,5 +32,5 @@ I am a 3rd year PhD student in the Signal Transformation and Information Represe
 **Research:** I apply techniques from statistical signal processing, machine learning, and (often convex) optimization to computational imaging and other inverse problems.
 Currently, I'm working on probabilistic modeling of single-photon lidar and self-supervised learning for solving inverse problems.
 
-**Previously:** I was a Coterm student (B.S. + M.S.) in Electrical Engineering at Stanford University, advised by <a href='https://web.stanford.edu/~pauly/'>Prof. John Pauly</a> and <a href='https://stanford.edu/~pilanci/'>Prof. Mert Pilanci</a>. At Stanford, I was fortunate to work with <a href='https://www.cs.umd.edu/~metzler/'>Prof. Christopher Metzler</a> (now at UMD) and <a href='https://stanford.edu/~gordonwz/'>Prof. Gordon Wetzstein</a> at <a href='https://www.computationalimaging.org/'>Stanford Computational Imaging Lab</a>.
+**Previously:** I was a Coterm student (B.S. + M.S.) in Electrical Engineering at Stanford University, advised by <a href='https://web.stanford.edu/~pauly/'>Prof. John Pauly</a> and <a href='https://stanford.edu/~pilanci/'>Prof. Mert Pilanci</a>. At Stanford, I was fortunate to work with <a href='https://www.cs.umd.edu/~metzler/'>Prof. Christopher Metzler</a> (now at University of Maryland) and <a href='https://stanford.edu/~gordonwz/'>Prof. Gordon Wetzstein</a> at <a href='https://www.computationalimaging.org/'>Stanford Computational Imaging Lab</a>.
 
