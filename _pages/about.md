@@ -2,16 +2,14 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
+subtitle: <a href='#'>Affiliations</a>. Computational Imaging PhD student at <a href='https://www.bu.edu/eng/academics/departments-and-divisions/electrical-and-computer-engineering'>ECE, Boston University</a> | Research Intern at <a href='https://www.merl.com/'>MERL</a>
 
 profile:
   align: right
   image: profilepic.jpg
-  image_circular: false # crops the image to make it circular
+  image_circular: true # crops the image to make it circular
   more_info: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+    <p>rkitich at bu dot edu</p>
 
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
@@ -22,13 +20,15 @@ announcements:
   limit: 5 # leave blank to include all the news in the `_news` folder
 
 latest_posts:
-  enabled: true
+  enabled: false
   scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
   limit: 3 # leave blank to include all the blog posts
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+I am a 3rd year PhD student at the Signal Transformation and Information Representation (STIR) group, advised by <a href='https://www.vivekgoyal.org/'>Prof. Vivek K Goyal</a>.
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+**Research:** I apply techniques from statistical signal processing, machine learning, and (often convex) optimization to computational imaging and other inverse problems.
+Currently, I'm working on probabilistic modeling of single-photon lidar and self-supervised learning for solving inverse problems.
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+Previously, I was a Coterm student (B.S. + M.S.) at the Department of Electrical Engineering, Stanford University. My B.S. advisor is <a href='https://web.stanford.edu/~pauly/'>Prof. John Pauly</a>, and my M.S. advisor is <a href='https://stanford.edu/~pilanci/'>Prof. Mert Pilanci</a>. At Stanford, I was fortunate to work with <a href='https://www.cs.umd.edu/~metzler/'>Prof. Christopher Metzler</a> (now at UMD) and <a href='https://stanford.edu/~gordonwz/'>Prof. Gordon Wetzstein</a> at <a href='https://www.computationalimaging.org/'>Stanford Computational Imaging Lab</a>.
+
