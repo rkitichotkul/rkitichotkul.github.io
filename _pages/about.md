@@ -3,7 +3,7 @@ layout: about
 title: About
 permalink: /
 subtitle: |+
-  Computational Imaging PhD student at Department of Electrical and Electronic Engineering, <a href='https://www.bu.edu/'>Boston University</a><br>
+  Computational Imaging PhD student at ECE, <a href='https://www.bu.edu/'>Boston University</a><br>
   Research Intern at <a href='https://www.merl.com/'>Mitsubishi Electric Research Laboratories (MERL)</a><br>
   I go by Kao, though my full name is Ruangrawee Kitichotkul (เรืองรวี กิติโชตน์กุล).
 
