@@ -1,24 +1,26 @@
 ---
 layout: page
-title: Demosaicing in C++
-description: See <a href="https://github.com/rkitichotkul/demosaic">GitHub repository</a>
+title: C++ Demosaicing Engine
+description: with OpenCV and LibRaw 
 img: assets/img/demosaic/mosaic.jpg
 importance: 1
 category: work
 related_publications: false
 ---
 
+<a href="https://github.com/rkitichotkul/demosaic">GitHub repository</a>
+
 Digital cameras capture images using sensors overlaid with a color filter array, most commonly the Bayer pattern. Each pixel records only one color channel --- red, green, or blue --- requiring a process called *demosaicing* to reconstruct a full-color image. As part of a recent project, I developed a C++ engine to simulate the Bayer pattern and perform demosaicing via OpenCV’s <a href="https://docs.opencv.org/3.4/de/d25/imgproc_color_conversions.html">`cvtColor`</a> function.
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="https://github.com/rkitichotkul/demosaic/blob/main/assets/plush_rggb.jpg" title="Simulated RAW image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/demosaic/plush_rggb.jpg" title="Simulated RAW image" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="https://github.com/rkitichotkul/demosaic/blob/main/assets/plush_sim_demosaiced.jpg" title="Demosaiced image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/demosaic/plush_sim_demosaiced.jpg" title="Demosaiced image" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="https://github.com/rkitichotkul/demosaic/blob/main/assets/mosaic.jpg" title="Zoomed-in Bayer pattern" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/demosaic/mosaic.jpg" title="Zoomed-in Bayer pattern" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
@@ -29,10 +31,10 @@ I used <a href="https://www.libraw.org/">LibRaw</a> to read real RAW images, ena
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="https://github.com/rkitichotkul/demosaic/blob/main/assets/plush_realraw_grayscale.jpg" title="Real RAW image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/demosaic/plush_realraw_grayscale.jpg" title="Real RAW image" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="https://github.com/rkitichotkul/demosaic/blob/main/assets/plush_real_demosaiced.jpg" title="Demosaiced image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/demosaic/plush_real_demosaiced.jpg" title="Demosaiced image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">

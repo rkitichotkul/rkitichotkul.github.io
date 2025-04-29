@@ -183,6 +183,13 @@
       {{ entry.note | strip }}
     </div>
 
+    <!-- Honor -->
+    {%- if entry.honor -%}
+    <span class="honor">
+      {{entry.honor}}
+    </span>
+    {%- endif -%}
+
     <!-- Links/Buttons -->
     <div class="links">
       {% if entry.award %}
