@@ -24,7 +24,7 @@ ninja.data = [{
             window.location.href = "/publications/";
           },
         },{id: "nav-projects",
-          title: "projects",
+          title: "Projects",
           description: "Side projects, school projects, etc.",
           section: "Navigation",
           handler: () => {
@@ -399,9 +399,9 @@ ninja.data = [{
           section: "News",},{id: "news-the-paper-simultaneous-range-and-velocity-measurement-with-doppler-single-photon-lidar-from-my-internship-at-merl-has-been-published-in-optica",
           title: 'The paper “Simultaneous range and velocity measurement with Doppler single-photon lidar” from my...',
           description: "",
-          section: "News",},{id: "projects-demosaicing-in-c",
-          title: 'Demosaicing in C++',
-          description: "See GitHub repository",
+          section: "News",},{id: "projects-c-demosaicing-engine",
+          title: 'C++ Demosaicing Engine',
+          description: "with OpenCV and LibRaw",
           section: "Projects",handler: () => {
               window.location.href = "/projects/1_project/";
             },},{
