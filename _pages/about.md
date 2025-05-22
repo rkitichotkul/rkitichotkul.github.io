@@ -27,7 +27,7 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-I am a 3rd year PhD student in the Signal Transformation and Information Representation (STIR) group, advised by <a href='https://www.vivekgoyal.org/'>Prof. Vivek K Goyal</a>.
+I am a 4th year Ph.D. student in the Signal Transformation and Information Representation (STIR) group, advised by <a href='https://www.vivekgoyal.org/'>Prof. Vivek K Goyal</a>.
 
 **Research:** I apply techniques from statistical signal processing, machine learning, and (often convex) optimization to computational imaging and other inverse problems.
 Currently, I'm working on probabilistic modeling of single-photon lidar and self-supervised learning for solving inverse problems.
