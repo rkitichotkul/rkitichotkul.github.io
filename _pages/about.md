@@ -3,8 +3,8 @@ layout: about
 title: About
 permalink: /
 subtitle: |+
-  Computational Imaging PhD student at ECE, <a href='https://www.bu.edu/'>Boston University</a><br>
-  Research Intern at <a href='https://www.merl.com/'>Mitsubishi Electric Research Laboratories (MERL)</a><br>
+  Senior Machine Learning Engineer at <a href='https://www.analog.com/en/index.html'>Analog Devices</a>.<br>
+  Previously, Computational Imaging PhD student at ECE, <a href='https://www.bu.edu/'>Boston University</a><br>
   I go by Kao, though my full name is Ruangrawee Kitichotkul (เรืองรวี กิติโชตน์กุล).
 
 profile:
@@ -27,10 +27,9 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-I am a 4th year Ph.D. student in the Signal Transformation and Information Representation (STIR) group, advised by <a href='https://www.vivekgoyal.org/'>Prof. Vivek K Goyal</a>.
-
 **Research:** I apply techniques from statistical signal processing, machine learning, and (often convex) optimization to computational imaging and other inverse problems.
-Currently, I'm working on probabilistic modeling of single-photon lidar and self-supervised learning for solving inverse problems.
 
-**Previously:** I was a Coterm student (B.S. + M.S.) in Electrical Engineering at Stanford University, advised by <a href='https://web.stanford.edu/~pauly/'>Prof. John Pauly</a> and <a href='https://stanford.edu/~pilanci/'>Prof. Mert Pilanci</a>. At Stanford, I was fortunate to work with <a href='https://www.cs.umd.edu/~metzler/'>Prof. Christopher Metzler</a> (now at University of Maryland) and <a href='https://stanford.edu/~gordonwz/'>Prof. Gordon Wetzstein</a> at <a href='https://www.computationalimaging.org/'>Stanford Computational Imaging Lab</a>.
+**Previously:** I completed my Ph.D. in Electrical Engineering in the Signal Transformation and Information Representation (STIR) group, advised by <a href='https://www.vivekgoyal.org/'>Prof. Vivek K Goyal</a>. 
+During Ph.D., I was a research intern at <a href='https://www.merl.com/'>Mitsubishi Electric Research Laboratories (MERL)</a><br>, working on algorithms for single-photon lidar, supervised by <a href='https://www.joshuarapp.org/'>Dr. Joshua Rapp</a>.
+I was a Coterm student (B.S. + M.S.) in Electrical Engineering at Stanford University, advised by <a href='https://web.stanford.edu/~pauly/'>Prof. John Pauly</a> and <a href='https://stanford.edu/~pilanci/'>Prof. Mert Pilanci</a>. At Stanford, I was fortunate to work with <a href='https://www.cs.umd.edu/~metzler/'>Prof. Christopher Metzler</a> (now at University of Maryland) and <a href='https://stanford.edu/~gordonwz/'>Prof. Gordon Wetzstein</a> at <a href='https://www.computationalimaging.org/'>Stanford Computational Imaging Lab</a>.
 
