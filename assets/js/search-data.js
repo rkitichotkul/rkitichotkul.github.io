@@ -23,12 +23,12 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/publications/";
           },
-        },{id: "nav-projects",
-          title: "Projects",
-          description: "Side projects, school projects, etc.",
+        },{id: "nav-software",
+          title: "Software",
+          description: "Software, tools, and code.",
           section: "Navigation",
           handler: () => {
-            window.location.href = "/projects/";
+            window.location.href = "/software/";
           },
         },{id: "post-a-post-with-image-galleries",
         
@@ -405,11 +405,26 @@ ninja.data = [{
           section: "News",},{id: "news-my-work-on-free-running-single-photon-lidar-has-been-accepted-to-iccv-2025-️",
           title: 'My work on Free-running Single-Photon Lidar has been accepted to ICCV 2025!🏝️',
           description: "",
-          section: "News",},{id: "projects-c-demosaicing-engine",
-          title: 'C++ Demosaicing Engine',
-          description: "with OpenCV and LibRaw",
+          section: "News",},{id: "projects-demosaicing-engine",
+          title: 'Demosaicing Engine',
+          description: "C++ with OpenCV and LibRaw",
           section: "Projects",handler: () => {
               window.location.href = "/projects/1_project/";
+            },},{id: "projects-suremap",
+          title: 'SUREMap',
+          description: "MRI uncertainty quantification with Stein&#39;s Unbiased Risk Estimator",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/2_software/";
+            },},{id: "projects-pnp-pbm",
+          title: 'PnP-PBM',
+          description: "Particle Beam Micrograph Denoising with Plug-and-Play Priors",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/3_software/";
+            },},{id: "projects-splidar",
+          title: 'splidar',
+          description: "Simulators and estimators for Single-Photon Lidar",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/4_software/";
             },},{
         id: 'social-email',
         title: 'email',
