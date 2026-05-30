@@ -1,10 +1,10 @@
 ---
 layout: page
-title: C++ Demosaicing Engine
-description: with OpenCV and LibRaw 
-img: assets/img/demosaic/mosaic.jpg
+title: Demosaicing Engine
+description: C++ with OpenCV and LibRaw
+img: assets/img/software/01_demosaic/mosaic_cover.jpg
 importance: 1
-category: work
+category: software
 related_publications: false
 ---
 
@@ -14,13 +14,13 @@ Digital cameras capture images using sensors overlaid with a color filter array,
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/demosaic/plush_rggb.jpg" title="Simulated RAW image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/software/01_demosaic/plush_rggb.jpg" title="Simulated RAW image" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/demosaic/plush_sim_demosaiced.jpg" title="Demosaiced image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/software/01_demosaic/plush_sim_demosaiced.jpg" title="Demosaiced image" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/demosaic/mosaic.jpg" title="Zoomed-in Bayer pattern" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/software/01_demosaic/mosaic.jpg" title="Zoomed-in Bayer pattern" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
@@ -31,10 +31,10 @@ I used <a href="https://www.libraw.org/">LibRaw</a> to read real RAW images, ena
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/demosaic/plush_realraw_grayscale.jpg" title="Real RAW image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/software/01_demosaic/plush_realraw_grayscale.jpg" title="Real RAW image" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/demosaic/plush_real_demosaiced.jpg" title="Demosaiced image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/software/01_demosaic/plush_real_demosaiced.jpg" title="Demosaiced image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
