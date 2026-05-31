@@ -3,7 +3,7 @@ layout: page
 title: splidar
 description: Simulators and estimators for Single-Photon Lidar
 img: assets/img/software/04_splidar/splidar.jpg
-importance: 4
+importance: 1
 category: software
 related_publications: false
 ---

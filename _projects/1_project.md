@@ -3,7 +3,7 @@ layout: page
 title: Demosaicing Engine
 description: C++ with OpenCV and LibRaw
 img: assets/img/software/01_demosaic/mosaic_cover.jpg
-importance: 1
+importance: 4
 category: software
 related_publications: false
 ---

@@ -3,7 +3,7 @@ layout: page
 title: PnP-PBM
 description: Particle Beam Micrograph Denoising with Plug-and-Play Priors
 img: assets/img/software/03_pnp_pbm/pbm.jpg
-importance: 3
+importance: 2
 category: software
 related_publications: false
 ---

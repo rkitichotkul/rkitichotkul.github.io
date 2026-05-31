@@ -3,7 +3,7 @@ layout: page
 title: SUREMap
 description: MRI uncertainty quantification with Stein's Unbiased Risk Estimator
 img: assets/img/software/02_suremap/foot-recon.jpg
-importance: 2
+importance: 3
 category: software
 related_publications: false
 ---

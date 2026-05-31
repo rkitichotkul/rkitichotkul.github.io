@@ -22,6 +22,12 @@
 
 </div>
 
+## Run locally
+
+```bash
+bundle exec jekyll serve
+```
+
 ## User community
 
 The vibrant community of **al-folio** users is growing!
@@ -223,6 +229,7 @@ Run the test yourself: [Google Lighthouse PageSpeed Insights](https://pagespeed.
 ## Table Of Contents
 
 - [al-folio](#al-folio)
+  - [Run locally](#run-locally)
   - [User community](#user-community)
   - [Lighthouse PageSpeed Insights](#lighthouse-pagespeed-insights)
     - [Desktop](#desktop)
