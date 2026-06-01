@@ -4,8 +4,8 @@ title: About
 permalink: /
 subtitle: |+
   Senior Machine Learning Engineer at <a href='https://www.analog.com/en/index.html'>Analog Devices</a>, working on audio machine learning.<br>
-  Previously, Computational Imaging PhD at ECE, <a href='https://www.bu.edu/'>Boston University</a><br>
-  I go by Kao, though my full name is Ruangrawee Kitichotkul (เรืองรวี กิติโชตน์กุล).
+  Computational Imaging PhD at ECE, <a href='https://www.bu.edu/'>Boston University</a><br>
+  I go by Kao. My full name is Ruangrawee Kitichotkul (เรืองรวี กิติโชตน์กุล).
 
 profile:
   align: right
