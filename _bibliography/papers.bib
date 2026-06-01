@@ -3,18 +3,72 @@
 
 @string{aps = {American Physical Society,}}
 
-@misc{kitichotkul2025free,
-  title={Free-running vs. Synchronous: Single-Photon Lidar for High-flux 3D Imaging}, 
-  author={Ruangrawee Kitichotkul and Shashwath Bharadwaj and Joshua Rapp and Yanting Ma and Alexander Mehta and Vivek K Goyal},
-  year={2025},
-  eprint={2507.09386},
-  archivePrefix={arXiv},
-  primaryClass={eess.SP},
-  url={https://arxiv.org/abs/2507.09386},
+@inproceedings{zhang2026proxicbo,
+  title={ProxiCBO: A consensus-based method for composite optimization},
+  author={Zhang, Haoyu and Ma, Yanting and Kitichotkul, Ruangrawee and Rapp, Joshua and Boufounos, Petros T},
+  booktitle={ICASSP 2026-2026 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)},
+  pages={946--950},
+  year={2026},
+  organization={IEEE},
+  abstract={This paper presents an interacting-particle optimization method for composite optimization problems. The proposed approach combines ideas from consensus-based optimization (CBO) with proximal gradient descent. We establish theoretical convergence guarantees for the continuous-time finite-particle dynamics and introduce an alternating update scheme for practical implementation. Finally, we validate the effectiveness of our method across several signal processing problems, demonstrating its advantages over proximal gradient descent, CBO, and their variants.},
+  abbr = {ICASSP},
+  selected={true},
+  pdf={https://www.merl.com/publications/docs/TR2026-041.pdf}
+}
+
+@inproceedings{mehta2026equivariant,
+  title={Equivariant Deep Equilibrium Models for Imaging Inverse Problems},
+  author={Mehta, Alexander and Kitichotkul, Ruangrawee and Goyal, Vivek K and Tachella, Juli{\'a}n},
+  booktitle={ICASSP 2026-2026 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)},
+  pages={11437--11441},
+  year={2026},
+  organization={IEEE},
+  abstract={Equivariant imaging (EI) enables training signal reconstruction models without requiring ground truth data by leveraging signal symmetries. Deep equilibrium models (DEQs) are a powerful class of neural networks where the output is a fixed point of a learned operator. However, training DEQs with complex EI losses requires implicit differentiation through fixed-point computations, whose implementation can be challenging. We show that backpropagation can be implemented modularly, simplifying training. Experiments demonstrate that DEQs trained with implicit differentiation outperform those trained with Jacobian-free backpropagation and other baseline methods. Additionally, we find evidence that EI-trained DEQs approximate the proximal map of an invariant prior.},
+  abbr = {ICASSP},
+  selected={true},
+  pdf={https://arxiv.org/pdf/2511.18667}
+}
+
+@article{kitichotkul2026unambiguous,
+  title={Unambiguous range extension for Doppler single-photon lidar},
+  author={Kitichotkul, Ruangrawee and Rapp, Joshua and Ma, Yanting and Mansour, Hassan},
+  journal={Optics Express},
+  volume={34},
+  number={9},
+  pages={15933--15952},
+  year={2026},
+  publisher={Optica Publishing Group},
+  abstract={Single-photon lidar (SPL) measures the time delay between a laser pulse emission and a single photon detection. SPL typically uses a periodic sequence of illumination pulses to improve the accuracy of distance estimates, and the radial velocity of a moving target can also be determined from the Doppler shift in the pulse repetition frequency. Although increasing the repetition frequency increases the photon detection rate, it also decreases the unambiguous range. Several alternative pulsing modes have been proposed to break this tradeoff for SPL measurements of static scenes, e.g., using multiple repetition rates or random pulse trains to yield both high count rates and a long unambiguous range. In this work, we show that velocity can still be estimated despite the use of non-periodic range extension pulse patterns. We derive a general model for the photon acquisition process with a moving target and propose maximum likelihood estimators (MLEs) to recover the distance, velocity, and photon flux levels. Each range extension mode requires a tailored initialization scheme in order for our MLE solver to converge to the global optimum. We demonstrate through simulations and experiments that non-periodic SPL can simultaneously achieve long-range, high-accuracy distance and velocity estimates.},
+  abbr = {Optics Express},
+  selected={true},
+  pdf={https://opg.optica.org/viewmedia.cfm?uri=oe-34-9-15933&seq=0}
+}
+
+@phdthesis{kitichotkul2026single,
+  title={Single-photon lidar: statistical analysis, high-flux imaging, and velocimetry},
+  author={Kitichotkul, Ruangrawee},
+  year={2026},
+  school={Boston University},
+  abstract={Single-photon lidar (SPL) systems leverage the sensitivity of single-photon avalanche diodes (SPADs) to achieve long-range, high-resolution 3D imaging. Despite these strengths, the technology faces many critical challenges that limit its real-world deployment. This thesis addresses three limitations—the reliance on knowing the ambient background flux, performance degradation in high-flux environments due to SPAD dead time, and the inability to measure velocity—by developing probabilistic models and corresponding estimators. First, we introduce a joint maximum likelihood (ML) estimator that simultaneously determines signal flux, background flux, and depth, enabling real-time adaptation to varying ambient light without requiring prior flux knowledge. Second, we develop computationally efficient joint ML estimators for high-flux operation under SPAD dead time. Simulations and experiments show the clear superiority of the free-running mode, in which the SPAD is reactivated immediately after the dead time, over the conventional synchronous mode, in which reactivation occurs at the beginning of the next repetition period.
+  The free-running mode is robustly depth-independent, outperforms the synchronous mode even under extreme dead-time conditions, and has a higher optimal flux than the conventional ``5\% rule.''
+  For instance, at a signal-to-background ratio of 0.1, the optimal flux is approximately eight photons per repetition period, \ie, $\sim$800\%.
+  Finally, we pioneer Doppler SPL, a methodology that integrates target velocity into the probabilistic model as a Doppler shift in the pulsing repetition period. By employing Fourier analysis of Poisson processes and ML estimation, this approach jointly estimates velocity alongside all other scene parameters from absolute detection times. Collectively, these contributions significantly expand the operational envelope of SPL, transforming it into a robust, high-performance sensing modality capable of handling dynamic backgrounds, mitigating dead-time effects, and simultaneously measuring distance, velocity, and reflectivity.},
+  abbr = {Thesis},
+  selected = {false},
+  pdf = {https://open.bu.edu/bitstreams/2392b72c-6011-460f-815f-fbb9d9ef01db/download}
+}
+
+@InProceedings{kitichotkul2025free,
+  author    = {Kitichotkul, Ruangrawee and Bharadwaj, Shashwath and Rapp, Joshua and Ma, Yanting and Mehta, Alexander and Goyal, Vivek K},
+  title     = {Free-running vs Synchronous: Single-Photon Lidar for High-flux 3D Imaging},
+  booktitle = {Proceedings of the IEEE/CVF International Conference on Computer Vision (ICCV)},
+  month     = {October},
+  year      = {2025},
+  pages     = {25972-25982},
   abstract={Conventional wisdom suggests that single-photon lidar (SPL) should operate in low-light conditions to minimize dead-time effects. Many methods have been developed to mitigate these effects in synchronous SPL systems. However, solutions for free-running SPL remain limited despite the advantage of reduced histogram distortion from dead times. To improve the accuracy of free-running SPL, we propose a computationally efficient joint maximum likelihood estimator of the signal flux, the background flux, and the depth using only histograms, along with a complementary regularization framework that incorporates a learned point cloud score model as a prior. Simulations and experiments demonstrate that free-running SPL yields lower estimation errors than its synchronous counterpart under identical conditions, with our regularization further improving accuracy.},
   abbr = {ICCV},
   selected = {true},
-  pdf = {https://arxiv.org/abs/2507.09386}
+  pdf = {https://openaccess.thecvf.com/content/ICCV2025/papers/Kitichotkul_Free-running_vs_Synchronous_Single-Photon_Lidar_for_High-flux_3D_Imaging_ICCV_2025_paper.pdf}
 }
 
 @InProceedings{bharadwaj2025snspd,
@@ -61,7 +115,7 @@
   abstract={Single-photon lidar (SPL) can achieve high-accuracy, lowlight ranging; however, velocity estimation typically requires regression over multiple distance measurements. Here, we introduce Doppler SPL, which enables joint instantaneous velocity and range estimation. First, we derive a measurement model for SPL, showing that a target moving at a constant velocity introduces a Doppler shift into the sequence of photon detection times. We then introduce estimators for range and velocity based on Fourier analysis of the detection time sequence. Simulations show improved accuracy of our method over baseline approaches, and we further validate our approach on experimental SPL data for a moving target.},
   abbr={ICASSP},
   pdf={https://shadow.merl.com/publications/docs/TR2025-028.pdf},
-  selected={true},
+  selected={false},
 }
 
 @article{agarwal2024shot,
@@ -107,7 +161,7 @@
   abstract={In direct time-of-flight single-photon lidar, the photon detection times are typically used to estimate the depth, while the number of detections is used to estimate the reflectivity. This paper examines the use of detection times in reflectivity estimation with a free-running SPAD by proposing new estimators and unifying previous results with new analysis. In the low-flux regime where dead times are negligible, we examine the Cramér--Rao bound of reflectivity estimation. When depth is unknown, we show that an estimator based on censoring can perform almost as well as a maximum likelihood estimator, and, surprisingly, incorrect depth estimation can reduce the mean-squared errors of reflectivity estimation. We also examined joint estimation of signal and background fluxes, for which our proposed censoring-based estimator performs as well as the maximum likelihood estimator. In the high-flux regime where dead times are not negligible, we model the detection times as a Markov chain and examine some reflectivity estimators that exploit the detection times.},
   abbr={IEEE JSTQE},
   pdf={https://par.nsf.gov/servlets/purl/10541094},
-  selected={true},
+  selected={false},
 }
 
 @article{peng2023denoising,
@@ -123,7 +177,7 @@
   abstract={In a particle beam microscope, a raster-scanned focused beam of particles interacts with a sample to generate a secondary electron (SE) signal pixel by pixel. Conventionally formed micrographs are noisy because of limitations on acquisition time and dose. Recent work has shown that estimation methods applicable to a time-resolved measurement paradigm can greatly reduce noise, but these methods apply pixel by pixel without exploiting image structure. Raw SE count data can be modeled with a compound Poisson (Neyman Type A) likelihood, which implies data variance that is signal-dependent and greater than the variation in the underlying particle-sample interaction. These statistical properties make methods that assume additive white Gaussian noise ineffective. This article introduces methods for particle beam micrograph denoising that use the plug-and-play framework to exploit image structure while being applicable to the unusual data likelihoods of this modality. Approximations of the data likelihood that vary in accuracy and computational complexity are combined with denoising by total variation regularization, BM3D, and DnCNN. Methods are provided for both conventional and time-resolved measurements, assuming SE counts are available. In simulations representative of helium ion microscopy and scanning electron microscopy, significant improvements in root mean-squared error (RMSE), structural similarity index measure (SSIM), and qualitative appearance are obtained. Average reductions in RMSE are by factors ranging from 2.24 to 4.11.},
   abbr={IEEE TCI},
   pdf={https://arxiv.org/pdf/2208.14256},
-  selected={true},
+  selected={false},
 }
 
 @inproceedings{kitichotkul2021suremap,
@@ -136,5 +190,5 @@
   abstract={Convolutional neural networks (CNN) have emerged as a powerful tool for solving computational imaging reconstruction problems. However, CNNs are generally difficult-to-understand black-boxes. Accordingly, it is challenging to know when they will work and, more importantly, when they will fail. This limitation is a major barrier to their use in safety-critical applications like medical imaging: Is that blob in the reconstruction an artifact or a tumor?In this work we use Stein's unbiased risk estimate (SURE) to develop per-pixel confidence intervals, in the form of heatmaps, for compressive sensing reconstruction using the approximate message passing (AMP) framework with CNN-based denoisers. These heatmaps tell end-users how much to trust an image formed by a CNN, which could greatly improve the utility of CNNs in various computational imaging applications.},
   abbr={ICASSP},
   pdf={https://arxiv.org/pdf/2010.13214},
-  selected={true},
+  selected={false},
 }

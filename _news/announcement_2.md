@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-I gave a lecture on Doppler Single-Photon Lidar at ICASSP 2025!
+I gave a lecture on <a href='https://shadow.merl.com/publications/docs/TR2025-028.pdf'>Doppler Single-Photon Lidar</a> at ICASSP 2025!
